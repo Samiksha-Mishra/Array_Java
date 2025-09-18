@@ -9,7 +9,7 @@ class Solution {
                 maxFromRight = arr[i];
                 list.add(maxFromRight);
             } 
-        }
+        } 
         Collections.reverse(list);
         return list;
     } 
