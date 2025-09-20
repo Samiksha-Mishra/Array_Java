@@ -3,7 +3,7 @@ class Solution {
         int n = prices.length, minPrice = prices[0], profit = 0;
         for(int i = 0 ; i < n ; i++){
             if(prices[i]<minPrice) minPrice = prices[i];
-            else profit = Math.max(profit,prices[i]-minPrice);
+            else profit = Math.max(profit,prices[i]-minPrice); 
         }
         return profit;
     }
